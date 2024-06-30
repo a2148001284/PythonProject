@@ -1,0 +1,15 @@
+{
+    "username":"",
+    "password":"",
+    "sct":{
+        "token":"",
+        "title":"",
+        "content":""
+    },
+    "bark":{
+        "token":"",
+        "title":"",
+        "content":""
+    }
+
+}

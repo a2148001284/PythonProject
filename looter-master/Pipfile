@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.doubanio.com/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aiohttp = "*"
+docopt = "*"
+parsel = "*"
+requests = "*"
+idna-ssl = "*"
+tqdm = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+
+[scripts]
+coverage = "pytest --cov-report html --cov=looter --cov-config .coveragerc -v -m ok"
